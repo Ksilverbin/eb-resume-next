@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "title": "블록체인 데이터 관리 어드민 개편",
+    "company": "빗썸",
+    "period": "2025. 04. - Present",
+    "description": "레거시 코드 분석을 통한 100페이지 규모의 어드민 시스템 단독 개편",
+    "tags": ["TypeScript", "Next.js", "SpringBoot", "Java"],
+    "introduce": [
+      {
+        "id": 1,
+        "subTitle": "UI/UX 개선",
+        "description": "Ant Design 도입 및 디자인 토큰 관리를 통한 라이트/다크 테마 지원"
+      },
+      {
+        "id": 2,
+        "subTitle": "개발 생산성 향상",
+        "description": "FSD 아키텍처 도입으로 복잡한 의존성 해결 및 재사용성 극대화\n검색 폼과 URL 상태 동기화를 위한 Zod 기반 런타임 타입 검사 훅 도입으로 데이터 정합성 보장 및 런타임 에러 사전 방지"
+      },
+      {
+        "id": 3,
+        "subTitle": "보안 강화",
+        "description": "proxy(middleware)를 통한 CORS 해결 및 API 엔드포인트 숨김 처리"
+      },
+      {
+        "id": 4,
+        "subTitle": "배포 최적화",
+        "description": "output: standalone 적용 및 Docker 멀티 스테이지 빌드를 적용으로 배포 시간 50% (10분 → 5분) 단축"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "블록체인 기반 인앱 서비스 Wepublic 런칭",
+    "company": "위메이드",
+    "period": "2023. 08. - 2025. 03.",
+    "description": "블록체인 기반 투명 공동체 운영 앱 내 웹뷰 서비스 개발",
+    "tags": ["TypeScript", "Next.js", "NestJS"],
+    "introduce": [
+      {
+        "id": 1,
+        "subTitle": "WebView 최적화",
+        "description": "Intersection Observer를 활용하여 뷰포트 내 콘텐츠 우선 로드 구현\niOS/Android 기기별 특성에 따른 비즈니스 로직 분기 및 UI 대응"
+      },
+      {
+        "id": 2,
+        "subTitle": "웹앱 환경 구축",
+        "description": "유니버설 링크 및 WalletConnect를 통한 웹-네이티브 간 인터랙션 설계"
+      },
+      {
+        "id": 3,
+        "subTitle": "서비스 기능 개발",
+        "description": "DID 기반의 신규 서명 프로세스 구축 및 문서화\nDAO, 프로젝트 개설, 투표 등 Web3 연동 기능 개발"
+      },
+      {
+        "id": 4,
+        "subTitle": "업무 효율성 개선",
+        "description": "컨텐츠 관리 어드민 기획 및 개발"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "블록체인 기반 서비스 NILE 런칭",
+    "company": "위메이드",
+    "period": "2022. 09. - 2025. 08.",
+    "description": "NFT 거래 및 DAO 운영을 위한 Web3 기반 웹 서비스 프론트엔드 개발",
+    "tags": ["TypeScript", "Next.js", "NestJS", "Docker"],
+    "introduce": [
+      {
+        "id": 1,
+        "subTitle": "디자인 시스템",
+        "description": "Atomic Design Pattern과 Storybook을 도입하여 UI 일관성 확보 및 협업 커뮤니케이션 비용 감소"
+      },
+      {
+        "id": 2,
+        "subTitle": "데이터 처리",
+        "description": "useInfiniteQuery를 활용한 인피니티 스크롤 구현으로 대규모 온체인 데이터 로딩 성능 최적화\namchart를 통한 수집된 온체인 데이터 시각화"
+      },
+      {
+        "id": 3,
+        "subTitle": "개발 생산성 향상",
+        "description": "Azure Function을 통한 Azure Blob Storage 이미지 업로드 자동화 API 구현\nAzure Pipeline을 통한 배포 파이프라인 구축"
+      }
+    ]
+  }
+]
