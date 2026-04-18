@@ -25,8 +25,10 @@ export function ProjectsSection() {
             <ul className="bullet-list project-points">
               {project.introduce.map((item) => (
                 <li key={item.id}>
-                  <strong>{item.subTitle}</strong>
-                  <span>{item.description}</span>
+                  <div className="project-point">
+                    <strong>{item.subTitle}</strong>
+                    <span>: {item.description}</span>
+                  </div>
                 </li>
               ))}
             </ul>

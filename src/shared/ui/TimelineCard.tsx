@@ -17,7 +17,7 @@ export function TimelineCard({
     <article className="timeline-card">
       <div className="timeline-header">
         <h3>{heading}</h3>
-        <span>{meta}</span>
+        <span className="timeline-meta">{meta}</span>
       </div>
       {body ? <p className="timeline-body">{body}</p> : null}
       {children}

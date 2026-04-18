@@ -7,20 +7,19 @@ const resume = getResume();
 export function HeroSection() {
   return (
     <Section>
-      <div className="hero">
+      <div className="hero hero-stack">
         <div>
-          <p className="eyebrow">Frontend Resume</p>
           <h1>{resume.name}</h1>
           <p className="role">{resume.title}</p>
         </div>
-        <div className="contact-card">
-          <a href={`mailto:${resume.contact.email}`}>{resume.contact.email}</a>
+        <div className="contact-links">
+          <a href={`mailto:${resume.contact.email}`}>Email</a>
           <a
             href={`https://${resume.contact.github}`}
             target="_blank"
             rel="noreferrer"
           >
-            {resume.contact.github}
+            GitHub
           </a>
         </div>
       </div>

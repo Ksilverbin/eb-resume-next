@@ -11,8 +11,6 @@ export default function Page() {
 
   return (
     <main className="page-shell">
-      <div className="page-glow page-glow-a" />
-      <div className="page-glow page-glow-b" />
       <div className="content-wrap">
         <HeroSection />
         <ExperienceSection />
@@ -23,7 +21,7 @@ export default function Page() {
       </div>
 
       <footer className="footer">
-        마지막 업데이트 일시 : {updatedAt}.
+        <div className="footer-inner">마지막 업데이트 일시 : {updatedAt}.</div>
       </footer>
     </main>
   );

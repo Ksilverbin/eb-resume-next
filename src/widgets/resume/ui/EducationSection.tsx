@@ -8,11 +8,11 @@ const resume = getResume();
 export function EducationSection() {
   return (
     <Section title="Education">
-      <div className="stack">
+      <div className="tag-row education-row">
         {resume.educations.map((education) => (
           <TimelineCard
             key={education.id}
-            heading={education.description}
+            heading={<p className="education-heading">{education.description}</p>}
             meta={education.period}
           >
             <BulletList items={education.introduce} />

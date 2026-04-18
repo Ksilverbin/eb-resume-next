@@ -6,12 +6,12 @@ const resume = getResume();
 export function CertificateSection() {
   return (
     <Section title="Certificate">
-      <div className="stack compact-stack">
+      <div className="tag-row certificate-row">
         {resume.certificates.map((certificate) => (
           <article className="certificate-card" key={certificate.id}>
             <strong>{certificate.name}</strong>
-            <span>
-              {certificate.date} {certificate.organization}
+            <span className="timeline-meta">
+              ({certificate.date} {certificate.organization})
             </span>
           </article>
         ))}
